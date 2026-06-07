@@ -5,13 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>About — NIL</title>
 <meta name="description" content="NIL has no founder to introduce. The brand is a position, not a personality.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add('js')</script>
+<link rel="preload" href="fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/schibsted-grotesk.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="styles.css">
+<script defer src="reveal.js"></script>
 </head>
 <body>
-<div class="wrap">
+<div class="shell">
 
   <nav class="site">
     <a class="wordmark" href="index.html">NIL</a>
@@ -22,15 +23,15 @@
     </div>
   </nav>
 
-  <h2 class="page-title">About</h2>
+  <h2 class="page-title" data-reveal>About</h2>
 
-  <div class="about-row">
+  <div class="about">
     <div class="body">
-      <p>NIL has no founder to introduce. There is no story of a person who started this, no portrait, no path from burnout to clarity.</p>
-      <p>The brand is a position, not a personality. The position is this: you were already enough before any product, any score, any brand arrived. It can be held by anyone who shares it.</p>
-      <p>There is nothing here to follow. There is no one here to become.</p>
+      <p data-reveal>NIL has no founder to introduce. There is no story of a person who started this, no portrait, no path from burnout to clarity.</p>
+      <p data-reveal>The brand is a position, not a personality. The position is this: you were <em>already enough</em> before any product, any score, any brand arrived. It can be held by anyone who shares it.</p>
+      <p data-reveal>There is nothing here to follow. There is no one here to become.</p>
     </div>
-    <div class="nofounder">no founder<br>photo</div>
+    <div class="nofounder" data-reveal>no founder photograph</div>
   </div>
 
   <footer class="site">

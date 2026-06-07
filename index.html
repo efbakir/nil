@@ -5,13 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>NIL — Already Enough</title>
 <meta name="description" content="NIL is a brand of nothing. It sells no products. The packaging is the critique.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add('js')</script>
+<link rel="preload" href="fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/schibsted-grotesk.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="styles.css">
+<script defer src="reveal.js"></script>
 </head>
 <body>
-<div class="wrap">
+<div class="shell">
 
   <nav class="site">
     <a class="wordmark" href="index.html">NIL</a>
@@ -22,13 +23,28 @@
     </div>
   </nav>
 
-  <h1 class="hero">You were already enough before we arrived.</h1>
-  <p class="lede">NIL is a brand of nothing. It sells no products. The packaging is the critique.</p>
+  <h1 class="hero" data-reveal>You were <em>already enough</em> before we arrived.</h1>
+  <p class="lede" data-reveal>NIL is a brand of nothing. It sells no products. The packaging is the critique.</p>
 
   <div class="index">
-    <a href="products.html"><h3>Products</h3><p>Five objects. Each one empty.</p></a>
-    <a href="manifesto.html"><h3>Manifesto</h3><p>Two lines. No product follows.</p></a>
-    <a href="about.html"><h3>About</h3><p>No founder. A position, not a person.</p></a>
+    <a class="entry" href="products.html" data-reveal>
+      <span class="idx">01</span>
+      <span class="ttl">Products</span>
+      <span class="dsc">Five objects. Each one empty.</span>
+      <span class="go">&rarr;</span>
+    </a>
+    <a class="entry" href="manifesto.html" data-reveal>
+      <span class="idx">02</span>
+      <span class="ttl">Manifesto</span>
+      <span class="dsc">Two lines. No product follows.</span>
+      <span class="go">&rarr;</span>
+    </a>
+    <a class="entry" href="about.html" data-reveal>
+      <span class="idx">03</span>
+      <span class="ttl">About</span>
+      <span class="dsc">No founder. A position, not a person.</span>
+      <span class="go">&rarr;</span>
+    </a>
   </div>
 
   <footer class="site">

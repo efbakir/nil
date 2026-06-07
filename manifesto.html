@@ -5,13 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Manifesto — NIL</title>
 <meta name="description" content="There is no version of you to optimise. You were already enough before we arrived.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add('js')</script>
+<link rel="preload" href="fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/schibsted-grotesk.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="styles.css">
+<script defer src="reveal.js"></script>
 </head>
 <body>
-<div class="wrap">
+<div class="shell">
 
   <nav class="site">
     <a class="wordmark" href="index.html">NIL</a>
@@ -23,9 +24,9 @@
   </nav>
 
   <div class="manifesto">
-    <p>There is no version of you to optimise.</p>
-    <p>You were already enough before we arrived.</p>
-    <p class="note">No product follows.</p>
+    <p data-reveal>There is no version of you to optimise.</p>
+    <p data-reveal>You were <em style="font-style:italic">already enough</em> before we arrived.</p>
+    <p class="note" data-reveal>No product follows.</p>
   </div>
 
   <footer class="site">
